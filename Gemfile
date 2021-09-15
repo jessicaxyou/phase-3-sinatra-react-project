@@ -3,6 +3,7 @@ source "https://rubygems.org"
 # A DSL for quickly creating web applications
 # https://github.com/sinatra/sinatra
 gem "sinatra", "~> 2.1"
+# gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
 
 # A fast and simple web server
 # https://github.com/macournoyer/thin
@@ -42,6 +43,11 @@ group :development do
   # https://github.com/alexch/rerun
   gem "rerun"
 end
+
+gem 'bcrypt'
+gem 'tux'
+gem 'faker'
+gem 'json'
 
 # These gems will only be used when we are running tests
 group :test do

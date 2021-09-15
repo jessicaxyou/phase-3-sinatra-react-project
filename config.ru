@@ -12,4 +12,6 @@ end
 use Rack::JSONBodyParser
 
 # Our application
+use BrandsController
+use ElectronicsController
 run ApplicationController
